@@ -1,5 +1,14 @@
 function stringChop(str, size) {
-  // your code here
+  //if str is null then return empty array
+if (!str)
+	return [];
+
+const res=[];
+size=Number(size);
+for (let i=0;i<str.length;i+=size) {
+	res.push(str.slice(I,i+size));
+}
+return res;
 }
 
 // Do not change the code below
