@@ -6,7 +6,7 @@ if (!str)
 const res=[];
 size=Number(size);
 for (let i=0;i<str.length;i+=size) {
-	res.push(str.slice(I,i+size));
+	res.push(str.slice(i,i+size));
 }
 return res;
 }
